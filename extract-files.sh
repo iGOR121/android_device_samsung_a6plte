@@ -73,6 +73,9 @@ function blob_fixup() {
         vendor/lib/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
             ;;
+	vendor/lib/libhifills.so)
+        "${PATCHELF}" --add-needed "libdemangle.so" "${2}"
+            ;;
         vendor/lib/libsample1.so)
             sed -i 's|/data/misc/sample1|/data/misc/sample2|g' "${2}"
             ;;

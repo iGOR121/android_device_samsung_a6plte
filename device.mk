@@ -126,7 +126,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.5-service \
-    android.hardware.camera.provider@2.5
+    android.hardware.camera.provider@2.5 \
+    libdemangle.vendor
 
 PRODUCT_PACKAGES += \
     libstdc++.vendor \
