@@ -1,5 +1,9 @@
 # system prop a6plte
 
+# Display
+ro.hardware.egl=adreno
+ro.hardware.vulkan=msm8953
+
 # Radio
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
