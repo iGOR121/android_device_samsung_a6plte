@@ -63,11 +63,13 @@ function blob_fixup() {
         ;;
 	vendor/lib/libsec-ril.so)
         sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
+        sed -i 's/ril.dds.call.slotid/vendor.calls.slotid/g' "${2}"
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
         "${PATCHELF}" --replace-needed "libril.so" "libril-samsung.so" "${2}"
         ;;
 	vendor/lib/libsec-ril-dsds.so)
         sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
+        sed -i 's/ril.dds.call.slotid/vendor.calls.slotid/g' "${2}"
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
         "${PATCHELF}" --replace-needed "libril.so" "libril-samsung.so" "${2}"
         ;;
