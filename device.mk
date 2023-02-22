@@ -63,6 +63,26 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ld.config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/swcodec/ld.config.txt
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio@5.0-impl \
+    android.hardware.audio.common@5.0 \
+    android.hardware.audio.common@5.0-util \
+    android.hardware.audio.effect@5.0 \
+    android.hardware.audio.effect@5.0-impl \
+    android.hardware.audio.service \
+    audio.a2dp.default \
+    audio.primary.msm8953 \
+    audio.r_submix.default \
+    audio.usb.default \
+    liba2dpoffload \
+    libaudio-resampler \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libtinycompress \
+    tinymix
+
 # Init files
 PRODUCT_PACKAGES += \
     init.a6plte.rc \
