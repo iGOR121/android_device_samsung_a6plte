@@ -162,6 +162,11 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2-service.clearkey \
     android.hardware.drm@1.2.vendor
 
+# FM
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni
+
 # Init files
 PRODUCT_PACKAGES += \
     init.a6plte.rc \
