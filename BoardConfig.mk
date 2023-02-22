@@ -23,6 +23,7 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 TARGET_USES_64_BIT_BINDER := true
+TARGET_SUPPORTS_64_BIT_APPS := false
 
 #TARGET_2ND_ARCH := arm
 #TARGET_2ND_ARCH_VARIANT := armv8-a
@@ -48,6 +49,7 @@ BOARD_MKBOOTIMG_ARGS := \
     --second_offset 0x00F00000 \
     --tags_offset 0x01E00000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8953
@@ -77,9 +79,9 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 314572800
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 26372714496
 
 # Properties
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
@@ -88,5 +90,5 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 # Screen density
 TARGET_SCREEN_DENSITY := 410
 
-Inherit from the proprietary version
+# Inherit from the proprietary version
 -include vendor/samsung/a6plte/BoardConfigVendor.mk
