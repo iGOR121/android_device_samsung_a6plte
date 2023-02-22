@@ -138,6 +138,8 @@ vendor/lib/libmmqjpegdma.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
+vendor/lib/libOpenCv.camera.samsung.so
+vendor/lib/libxcv.camera.samsung.so
 
 # Camera actuators
 vendor/lib/libactuator_zc535.so
