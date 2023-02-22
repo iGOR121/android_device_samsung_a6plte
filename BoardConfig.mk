@@ -33,6 +33,10 @@ TARGET_USES_64_BIT_BINDER := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := a6plte
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_a6plte_defconfig
 BOARD_KERNEL_BASE := 0x80000000
