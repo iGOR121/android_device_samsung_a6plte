@@ -151,6 +151,10 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
+# DPM
+PRODUCT_PACKAGES += \
+    libshim_dpmframework
+
 # Init files
 PRODUCT_PACKAGES += \
     init.a6plte.rc \
