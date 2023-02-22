@@ -1,0 +1,5 @@
+# system prop a6plte
+
+# Radio
+DEVICE_PROVISIONED=1
+ril.subscription.types=NV,RUIM
