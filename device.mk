@@ -177,6 +177,11 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1.vendor \
     android.hardware.gnss@3.0.vendor
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-service
+
 # Init files
 PRODUCT_PACKAGES += \
     init.a6plte.rc \
