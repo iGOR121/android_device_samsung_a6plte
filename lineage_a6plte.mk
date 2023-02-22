@@ -14,11 +14,7 @@
 # limitations under the License.
 #
 
-# Product API level
-# $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
-
 # Inherit some common Lineage stuff.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -38,5 +34,5 @@ PRODUCT_MODEL := galaxy a6+
 PRODUCT_MANUFACTURER := samsung
 BOARD_VENDOR := samsung
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=a6plte \
+# PRODUCT_BUILD_PROP_OVERRIDES += \
+#         PRODUCT_NAME=a6plte \
