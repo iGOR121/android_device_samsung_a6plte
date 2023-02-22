@@ -13,4 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# doing nothing
+# Init files
+PRODUCT_PACKAGES += \
+    init.a6plte.rc \
+    init.qcom.rc \
+    init.msm.usb.configfs.rc \
+    init.target.rc \
+    init.samsung.bsp.rc \
+    init.samsung.rc
