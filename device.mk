@@ -167,6 +167,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor
+
 # Init files
 PRODUCT_PACKAGES += \
     init.a6plte.rc \
