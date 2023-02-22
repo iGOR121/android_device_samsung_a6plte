@@ -212,7 +212,9 @@ PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
     init.target.rc \
     init.samsung.bsp.rc \
-    init.samsung.rc
+    init.samsung.rc \
+    fstab.qcom \
+    fstab.qcom_ramdisk
 
 # IPACM
 PRODUCT_PACKAGES += \
