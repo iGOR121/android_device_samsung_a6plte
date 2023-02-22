@@ -79,5 +79,5 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 # Screen density
 TARGET_SCREEN_DENSITY := 410
 
-# Inherit from the proprietary version
-# -include vendor/samsung/a6plte/BoardConfigVendor.mk
+Inherit from the proprietary version
+-include vendor/samsung/a6plte/BoardConfigVendor.mk
