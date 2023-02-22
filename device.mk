@@ -155,6 +155,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_dpmframework
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.2-service.clearkey \
+    android.hardware.drm@1.2.vendor
+
 # Init files
 PRODUCT_PACKAGES += \
     init.a6plte.rc \
