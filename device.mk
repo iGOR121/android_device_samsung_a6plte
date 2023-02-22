@@ -212,3 +212,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.samsung.bsp.rc \
     init.samsung.rc
+
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml
