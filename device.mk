@@ -116,6 +116,16 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     libbase_shim
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0.vendor \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service \
+    android.hardware.camera.provider@2.5
+
+PRODUCT_PACKAGES += \
+    libstdc++.vendor
+
 # Init files
 PRODUCT_PACKAGES += \
     init.a6plte.rc \
