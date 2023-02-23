@@ -44,9 +44,6 @@ on fs
     setprop ro.crypto.fde_algorithm AES-256-XTS
     write /proc/sys/vm/swappiness 100
 
-    wait /dev/block/bootdevice/by-name/cache
-    mount ext4 /dev/block/bootdevice/by-name/cache /cache nosuid nodev noatime noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic
-
     chown root system /mnt/vendor/persist
     wait /dev/block/bootdevice/by-name/persist
     mkdir /mnt/vendor/persist 0771 system system
