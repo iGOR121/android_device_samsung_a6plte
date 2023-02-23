@@ -60,6 +60,8 @@ debug.egl.hw=0
 debug.gralloc.enable_fb_ubwc=1
 debug.sf.recomputecrop=0
 debug.enable.sglscale=1
+ro.hardware.egl=adreno
+ro.hardware.vulkan=msm8953
 
 # Display properties
 ro.sf.lcd_density=420
