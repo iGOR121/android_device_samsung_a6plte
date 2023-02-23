@@ -1,12 +1,5 @@
 on post-fs-data
 
-# Samsung Pay
-    mkdir /efs/pfw_data 0760 spay spay
-
-# MST/NFC Switch
-    chown spay system /dev/mst_ctrl
-    chmod 0660 /dev/mst_ctrl
-
 #SystemFramework
     chown system system /data/cache/backup
     chmod 0711 /data/cache/backup
