@@ -55,6 +55,12 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib/mediadrm/libwvdrmengine.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
+            ;;
+        vendor/lib/libwvhidl.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
+            ;;
         vendor/lib/libsample1.so)
             sed -i 's|/data/misc/sample1|/data/misc/sample2|g' "${2}"
             ;;
