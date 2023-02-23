@@ -142,6 +142,7 @@ vendor/lib/libqomx_jpegenc.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libxcv.camera.samsung.so
 lib/libgui.so:vendor/lib/libgui.so
+vendor/lib/libqservice.so
 
 # Camera actuators
 vendor/lib/libactuator_zc535.so
@@ -354,6 +355,7 @@ vendor/lib/libllvm-qcom.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
+vendor/lib/libqdMetaData.so
 
 # Graphics (SDM)
 vendor/lib/libscalar.so
