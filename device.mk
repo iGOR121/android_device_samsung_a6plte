@@ -237,7 +237,7 @@ PRODUCT_PACKAGES += \
 
 # Linker
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/linker/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+    $(LOCAL_PATH)/configs/linker/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
 # Media
 PRODUCT_COPY_FILES += \
