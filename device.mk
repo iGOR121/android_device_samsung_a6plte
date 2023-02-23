@@ -111,6 +111,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.btconfigstore@1.0.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
     libbt-vendor \
@@ -146,10 +147,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdisplayconfig \
     liboverlay \
-    libqdMetaData \
-    libqdMetaData.system \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    vendor.display.config@1.0.vendor
 
 # DPM
 PRODUCT_PACKAGES += \
