@@ -37,13 +37,13 @@ vendor/lib/soundfx/libqcvirt.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
-vendor/lib/hw/audio.bluetooth.default.so
-vendor/lib/libbluetooth_audio_session.so
+#vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+#vendor/lib/hw/audio.bluetooth.default.so
+#vendor/lib/libbluetooth_audio_session.so
 vendor/lib/libbt-hidlclient.so
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
+#vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
+#vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 
 # Bluetooth (ANT+)
@@ -140,6 +140,7 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libxcv.camera.samsung.so
+lib/libgui.so:vendor/lib/libgui.so
 
 # Camera actuators
 vendor/lib/libactuator_zc535.so
@@ -280,7 +281,7 @@ vendor/lib/librpmb.so
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
-
+lib/vendor.qti.hardware.qseecom@1.0.so:vendor/lib/vendor.qti.hardware.qseecom@1.0.so
 
 # FM
 vendor/bin/init.qti.fm.sh
@@ -291,7 +292,7 @@ vendor/etc/init/init.qti.fm.rc
 vendor/lib/hw/gatekeeper.mdfpp.so
 
 # GPS
-lib/libcurl.so
+#lib/libcurl.so
 vendor/etc/flp.conf
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
@@ -356,6 +357,7 @@ vendor/lib/librs_adreno_sha1.so
 # Graphics (SDM)
 vendor/lib/libscalar.so
 vendor/lib/libsdm-color.so
+vendor/lib/libsdmutils.so
 vendor/lib/libsdm-diag.so
 -vendor/lib/libsdm-disp-vndapis.so
 vendor/lib/libsdmextension.so
@@ -453,6 +455,7 @@ vendor/lib/libdisp-aba.so
 vendor/lib/vendor.display.color@1.0.so
 vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
+vendor/lib/libqdutils.so
 
 # QMI
 system/lib/libqmi_cci_system.so
@@ -498,7 +501,7 @@ vendor/lib/libmdmdetect.so
 vendor/lib/libnetmgr.so
 vendor/lib/libpdmapper.so
 vendor/lib/libpdnotifier.so
-vendor/lib/libqmiservices.so
+#vendor/lib/libqmiservices.so
 vendor/lib/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib/vendor.qti.hardware.radio.ims@1.0.so
