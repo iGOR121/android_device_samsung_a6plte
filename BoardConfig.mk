@@ -48,8 +48,6 @@ BOARD_MKBOOTIMG_ARGS := \
     --ramdisk_offset 0x02000000 \
     --second_offset 0x00F00000 \
     --tags_offset 0x01E00000
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8953
