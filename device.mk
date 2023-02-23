@@ -207,14 +207,23 @@ PRODUCT_PACKAGES += \
 
 # Init files
 PRODUCT_PACKAGES += \
+    ueventd.qcom.rc \
     init.a6plte.rc \
     init.qcom.rc \
+    init.recovery.qcom.rc \
     init.msm.usb.configfs.rc \
     init.target.rc \
     init.samsung.bsp.rc \
     init.samsung.rc \
     fstab.qcom \
     fstab.qcom_ramdisk
+
+# Vendor scripts
+PRODUCT_PACKAGES += \
+    init.class_main.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.sh \
+    init.qcom.early_boot.sh
 
 # IPACM
 PRODUCT_PACKAGES += \
