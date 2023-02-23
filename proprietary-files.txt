@@ -272,6 +272,15 @@ vendor/lib/librpmb.so
 vendor/lib/libsecureui.so
 vendor/lib/libsecureui_svcsock.so
 vendor/lib/libssd.so
+vendor/lib/libGPTEE_vendor.so
+vendor/lib/libqcbor.so
+vendor/lib/libqisl.so
+vendor/lib/libQSEEComAPI.so
+vendor/lib/librpmb.so
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
+vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
+
 
 # FM
 vendor/bin/init.qti.fm.sh
@@ -279,7 +288,7 @@ vendor/bin/fm_qsoc_patches
 vendor/etc/init/init.qti.fm.rc
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.msm8953.so
+vendor/lib/hw/gatekeeper.mdfpp.so
 
 # GPS
 lib/libcurl.so
@@ -377,8 +386,20 @@ vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a420_pm4.fw
 vendor/firmware/a540_gpmu.fw2
 
+# Health
+vendor/bin/hw/android.hardware.health@2.0-service.samsung
+vendor/etc/init/android.hardware.health@2.0-service.samsung.rc
+vendor/lib/vendor.samsung.hardware.health@1.0.so
+
+# IOP
+vendor/lib/vendor.qti.hardware.iop@1.0.so
+vendor/lib/vendor.qti.hardware.iop@2.0.so
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
+vendor/lib/libqti-iopd-client.so
+
 # Keymaster
-vendor/lib/hw/keystore.msm8953.so
+vendor/lib/libkeymaster_helper_vendor.so
+-vendor/lib/libskeymaster3device.so
 
 # Media
 vendor/lib/libI420colorconvert.so
