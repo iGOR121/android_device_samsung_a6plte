@@ -378,10 +378,8 @@ vendor/firmware/a225p5_pm4.fw
 vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a630_gmu.bin
 vendor/firmware/a225_pfp.fw
-vendor/firmware/a530_pfp.fw
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a225_pm4.fw
-vendor/firmware/a530_pm4.fw
 vendor/firmware/a300_pfp.fw
 vendor/firmware/a530v1_pfp.fw
 vendor/firmware/a300_pm4.fw
@@ -394,13 +392,8 @@ vendor/firmware/a420_pfp.fw
 vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a420_pm4.fw
 vendor/firmware/a540_gpmu.fw2
-
-# Graphics firmware - from repo3 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
-vendor/firmware/a506_zap.b00|21d74ee137e4096c2ffcd6f2545b5b2f8f384efa
-vendor/firmware/a506_zap.b01|29b1834931d0cf07ab85fff636a787eee5d187e2
-vendor/firmware/a506_zap.b02|3e301fa5905acd05f15836959595791c1241a017
-vendor/firmware/a506_zap.elf|d9e5782c288516a4fd4adf521855d7d477308eed
-vendor/firmware/a506_zap.mdt|14839ca79a58f2ddf1cc6c0bdae1b63a3b92c774
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530_pm4.fw
 
 # Health
 vendor/bin/hw/android.hardware.health@2.0-service.samsung
