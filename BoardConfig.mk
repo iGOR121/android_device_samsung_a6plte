@@ -83,6 +83,10 @@ TARGET_USES_GRALLOC1 := true
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
+# IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_a6plte_defconfig
 BOARD_KERNEL_BASE := 0x80000000
