@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953
 
 PRODUCT_PACKAGES += \
+    android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     memtrack.msm8953
 
