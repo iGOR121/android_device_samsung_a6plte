@@ -407,9 +407,9 @@ vendor/lib/vendor.qti.hardware.iop@2.0.so
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/libqti-iopd-client.so
 
-# Keymaster
-vendor/lib/libkeymaster_helper_vendor.so
--vendor/lib/libskeymaster3device.so
+# Keystore
+vendor/lib/hw/keystore.mdfpp.so
+vendor/lib/libkeymaster2_mdfpp.so
 
 # Media
 vendor/lib/libI420colorconvert.so
