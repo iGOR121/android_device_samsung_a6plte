@@ -465,6 +465,11 @@ vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 #vendor/lib/libqdutils.so
 
+# Power
+vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
+vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
+vendor/lib/vendor.samsung.hardware.miscpower@2.0.so
+
 # QMI
 system/lib/libqmi_cci_system.so
 vendor/bin/irsc_util
