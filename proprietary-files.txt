@@ -562,7 +562,6 @@ vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libwvhidl.so
 
 # WI-FI
-vendor/bin/wcnss_service
+vendor/bin/hw/macloader
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
-vendor/lib/libcld80211.so
