@@ -281,7 +281,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0.vendor
+    android.hardware.power-service-qti
 
 # RIL
 PRODUCT_PACKAGES += \
