@@ -75,6 +75,9 @@ persist.qfp=false
 # FRP
 ro.frp.pst=/dev/block/persistent
 
+# Gatekeeper
+ro.hardware.gatekeeper=mdfpp
+
 # Media
 vendor.audio.hw.aac.encoder=true
 vendor.vidc.enc.disable.pq=true
