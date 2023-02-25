@@ -533,6 +533,12 @@ vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
+# Sensors
+vendor/etc/yas_set.cfg
+vendor/lib/hw/sensors.msm8953.so
+vendor/lib/libsensorlistener.so
+vendor/lib/libyasalgo.so
+
 # Thermal
 vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
