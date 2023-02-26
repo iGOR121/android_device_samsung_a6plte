@@ -540,6 +540,7 @@ vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/lib/libsec-ril.so
+vendor/lib/libsec-ril-dsds.so
 
 # Sensors
 vendor/etc/yas_set.cfg
