@@ -421,6 +421,7 @@ lib/libFileMux.so|1c713da8d18f03deb33c3211761fc07dd57d6946
 lib/libOmxMux.so|6f1a1f5fc8f9a8683e6fb719b6fe51a68c6b0e84
 lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
 lib/libmmparser_lite.so|c3656bbcd33d44d5b22743061261989fffd0382f
+vendor/lib/libgpustats.so|f8147077d11fd5b1070106ee9e6c549b4113c4d3
 vendor/lib/libOmxAacDec.so|55772a6d0cf3e6a5a2c32348fd7096b8737d490b
 vendor/lib/libOmxAlacDec.so|adca064b15a7d545075af6f5222db45dec8202b5
 vendor/lib/libOmxAlacDecSw.so|8700268f92a953549e5936af9d5ccd08f99ed50f
