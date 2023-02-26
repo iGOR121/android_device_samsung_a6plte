@@ -100,4 +100,7 @@ persist.vendor.radio.rat_on=combine
 persist.vendor.radio.atfwd.start=true
 persist.vendor.radio.procedure_bytes=SKIP
 vendor.sec.rild.libpath=/vendor/lib/libsec-ril.so
-vendor.sec.rild.libpath=/vendor/lib/libsec-ril-dsds.so
+vendor.sec.rild.libpath2=/vendor/lib/libsec-ril-dsds.so
+
+# Wifi
+wifi.interface=wlan0
