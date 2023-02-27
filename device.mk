@@ -118,7 +118,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
-    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
+    com.qualcomm.qti.bluetooth_audio@1.0.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -219,6 +219,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     init.a6plte.rc \
+    init.rilchip.rc \
+    init.rilcommon.rc \
+    init.vendor.rilchip.rc \
+    init.vendor.rilcommon.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
@@ -227,7 +231,8 @@ PRODUCT_PACKAGES += \
     init.samsung.bsp.rc \
     init.samsung.rc \
     fstab.qcom \
-    fstab.qcom_ramdisk
+    fstab.qcom_ramdisk \
+    wifi_qcom.rc
 
 # Vendor scripts
 PRODUCT_PACKAGES += \
