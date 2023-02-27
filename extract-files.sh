@@ -55,6 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+ vendor/lib64/libsec-ril.so)
+        "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
+        ;;
 	vendor/lib/hw/camera.msm8953.so)
 	    "${PATCHELF}" --replace-needed "libcamera_client.so" "libcamera_metadata_helper.so" "${2}"
 	    "${PATCHELF}" --replace-needed "libgui.so" "libgui_vendor.so" "${2}"
