@@ -166,10 +166,7 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libxcv.camera.samsung.so
-#lib/libgui.so:vendor/lib/libgui.so
-#lib/libbufferhub.so:vendor/lib/libbufferhub.so
-#lib/libbufferhubqueue.so:vendor/lib/libbufferhubqueue.so
-#vendor/lib/libqservice.so
+
 
 # Camera actuators
 vendor/lib/libactuator_zc535.so
@@ -325,7 +322,6 @@ lib/libfm-hci.so
 vendor/lib/hw/gatekeeper.mdfpp.so
 
 # GPS
-#lib/libcurl.so
 vendor/lib/libpdmapper.so
 vendor/bin/loc_launcher
 vendor/etc/flp.conf
@@ -389,12 +385,10 @@ vendor/lib/libllvm-qcom.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
-#vendor/lib/libqdMetaData.so
 
 # Graphics (SDM)
 vendor/lib/libscalar.so
 vendor/lib/libsdm-color.so
-#vendor/lib/libsdmutils.so
 vendor/lib/libsdm-diag.so
 -vendor/lib/libsdm-disp-vndapis.so
 vendor/lib/libsdmextension.so
@@ -425,11 +419,6 @@ vendor/firmware/a540_gpmu.fw2
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
-# Health
-#vendor/bin/hw/android.hardware.health@2.0-service.samsung
-#vendor/etc/init/android.hardware.health@2.0-service.samsung.rc
-#vendor/lib/vendor.samsung.hardware.health@1.0.so
-
 # IOP
 vendor/lib/vendor.qti.hardware.iop@1.0.so
 vendor/lib/vendor.qti.hardware.iop@2.0.so
@@ -441,37 +430,10 @@ vendor/lib/hw/keystore.mdfpp.so
 vendor/lib/libkeymaster2_mdfpp.so
 
 # Media - from daisy - QKQ1.191002.002
-#lib/libFileMux.so|1c713da8d18f03deb33c3211761fc07dd57d6946
-#lib/libOmxMux.so|6f1a1f5fc8f9a8683e6fb719b6fe51a68c6b0e84
-#lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
-#lib/libmmparser_lite.so|c3656bbcd33d44d5b22743061261989fffd0382f
-#-vendor/lib/libgpustats.so|75fc8f58b071f3c27d708010e1b40eafba091a14
-#vendor/lib/libOmxAacDec.so|55772a6d0cf3e6a5a2c32348fd7096b8737d490b
-#vendor/lib/libOmxAlacDec.so|adca064b15a7d545075af6f5222db45dec8202b5
-#vendor/lib/libOmxAlacDecSw.so|8700268f92a953549e5936af9d5ccd08f99ed50f
-#vendor/lib/libOmxAmrDec.so|61ca4a96027a610b74621bd3f9caff3f34e4eab5
-#vendor/lib/libOmxAmrwbplusDec.so|f0ebf6b19f569862fa8da05653148e867ba38878
-#vendor/lib/libOmxApeDec.so|49b4090d2f82963e596dd2fabb30b7fe8551a21b
-#vendor/lib/libOmxApeDecSw.so|d1276d42ad37fbd263ab96f9f353d4e782bb0fe9
-#vendor/lib/libOmxDsdDec.so|57760dbfd7098d5f1c1c8fb12973f715ba30aac6
-#vendor/lib/libOmxEvrcDec.so|20a6be418df26f48751b4178f5642e3fc6902690
-#vendor/lib/libOmxQcelp13Dec.so|27a75185e62e88ea84ac2448a3842c998899ae90
-#vendor/lib/libOmxVideoDSMode.so|84a6b99f5ad0c7dbe827eb01258cca4c790c0fe7
-#vendor/lib/libOmxVpp.so|46e4928c392716943986a3b490680d3e08fdf3e4
-#vendor/lib/libOmxWmaDec.so|c3da756ae14234ae8e56cbc0b32249fbd4c8746a
-#vendor/lib/libmmosal_proprietary.so|4b0788590e1ecfccd3b20b3181a4add528acb2b6
-#vendor/lib/libvpplibrary.so|816a79fe9a6d30e9402acb767119b9ee1c2c8aea
-#vendor/lib/libvqzip.so|24e5eb30e5a2cdb544c8688d81d7cc75a1d85eaf
-#vendor/lib/libI420colorconvert.so|0dfd4d0e49f4250e98e781483048a296a679e05e
-#vendor/lib/libmm-color-convertor.so|7c74d36d42dc79fc58afe0f4323b76cc1297d36e
-#vendor/lib/libdsd2pcm.so|2f25203ca76bd1a487cca4ae407d424137cf2610
-#vendor/lib/libFlacSwDec.so|a6cc0102b326e2e5d67c2d47ec7cb24e74167d9c
-#vendor/lib/libApeSwDec.so|f2c2423c155f5df0c68dcffb3bb56a99f7e6f991
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/somxreg.conf
 vendor/lib/libgpustats.so
 vendor/lib/libvqzip.so
-
 
 # Modem
 vendor/lib/libwms.so
@@ -508,7 +470,6 @@ vendor/lib/libdisp-aba.so
 vendor/lib/vendor.display.color@1.0.so
 vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
-#vendor/lib/libqdutils.so
 
 # Power
 vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
@@ -580,7 +541,6 @@ vendor/etc/yas_set.cfg
 vendor/lib/hw/sensors.msm8953.so
 vendor/lib/libsensorlistener.so
 vendor/lib/libyasalgo.so
-vendor/lib/libsensorndkbridge.so
 
 # Thermal
 vendor/bin/thermal-engine
