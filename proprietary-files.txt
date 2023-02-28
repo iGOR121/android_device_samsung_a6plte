@@ -63,6 +63,9 @@ vendor/lib/com.qualcomm.qti.ant@1.0.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 -lib/libantradio.so
 
+# Gralloc (FIXME)
+vendor/lib/hw/gralloc.msm8953.so
+
 # Camera
 vendor/lib/libremosaiclib.so
 vendor/lib/libremosaic_wrapper.so
