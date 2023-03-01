@@ -12,6 +12,8 @@ vendor/etc/workspaceFile.qwsp
 vendor/bin/adsprpcd
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsprpc.so
+vendor/lib/libmdsprpc.so
+vendor/lib/libsdsprpc.so
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libfastcvopt.so
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
@@ -20,6 +22,18 @@ vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_RGGB.so
+vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_BGGR.so
+vendor/lib/rfsa/adsp/libadsp_hvx_stats.so
+vendor/lib/rfsa/adsp/libadsp_hvx_skel.so
+vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so
+
+# CDSP
+vendor/bin/cdsprpcd
+vendor/lib/libcdsprpc.so
+vendor/lib/libcdsp_default_listener.so
+vendor/lib/libfastrpc_utf_stub.so
+vendor/lib/libsysmon_cdsp_skel.so
 
 # Audio
 vendor/lib/libacdb-fts.so
@@ -38,8 +52,8 @@ vendor/lib/libaudioalsa.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libqtigef.so
 vendor/lib/libtinycompress_vendor.so
-system/etc/permissions/audiosphere.xml
-system/framework/audiosphere.jar
+etc/permissions/audiosphere.xml
+framework/audiosphere.jar
 vendor/bin/audioflacapp
 vendor/lib/soundfx/libaudioeffectoffload.so
 -vendor/lib/libaudioparsers.so
@@ -63,15 +77,9 @@ vendor/lib/com.qualcomm.qti.ant@1.0.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 -lib/libantradio.so
 
-# Gralloc (FIXME)
-vendor/lib/hw/gralloc.msm8953.so
-
 # Camera
 vendor/lib/libremosaiclib.so
 vendor/lib/libremosaic_wrapper.so
-vendor/etc/camera/s5k2p6sx_chromatix.xml
-vendor/etc/camera/s5k2x7sp_chromatix.xml
-vendor/etc/camera/sdm450_camera_a6plte.xml
 vendor/lib/libhifills.so
 vendor/lib/libhifills_interface.so
 vendor/lib/libstr_capture_interface.so
@@ -169,12 +177,46 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libxcv.camera.samsung.so
+vendor/lib/libmmcamera_sr556.so
+vendor/lib/libmmcamera_llvd.so
+vendor/lib/libllvd_smore.so
+vendor/lib/libseemore.so
+vendor/lib/libllvd_sw_tnr.so
+vendor/lib/libmmcamera_chromaflash_lib.so
+vendor/lib/libchromaflash.so
+vendor/lib/libmmcamera_optizoom_lib.so
+vendor/lib/liboptizoom.so
+vendor/lib/libmmcamera_ubifocus_lib.so
+vendor/lib/libubifocus.so
+vendor/lib/libmmcamera_trueportrait_lib.so
+lib/libjni_trueportrait.so
+vendor/lib/libmmcamera_stillmore_lib.so
 
+# libsecnative
+vendor/lib/libsecnativefeature.so
 
 # Camera actuators
 vendor/lib/libactuator_zc535.so
 
 # Camera chromatix
+vendor/lib/libchromatix_sr556_4k_preview_3a.so
+vendor/lib/libchromatix_sr556_4k_video_3a.so
+vendor/lib/libchromatix_sr556_common.so
+vendor/lib/libchromatix_sr556_hfr_120_3a.so
+vendor/lib/libchromatix_sr556_hfr_120_cpp.so
+vendor/lib/libchromatix_sr556_hfr_120_isp.so
+vendor/lib/libchromatix_sr556_liveshot_cpp.so
+vendor/lib/libchromatix_sr556_liveshot_isp.so
+vendor/lib/libchromatix_sr556_preview_cpp.so
+vendor/lib/libchromatix_sr556_preview_isp.so
+vendor/lib/libchromatix_sr556_snapshot_cpp.so
+vendor/lib/libchromatix_sr556_snapshot_isp.so
+vendor/lib/libchromatix_sr556_sw_post_proc.so
+vendor/lib/libchromatix_sr556_video_4k_cpp.so
+vendor/lib/libchromatix_sr556_video_cpp.so
+vendor/lib/libchromatix_sr556_video_isp.so
+vendor/lib/libchromatix_sr556_zsl_preview_3a.so
+vendor/lib/libchromatix_sr556_zsl_video_3a.so
 vendor/lib/libchromatix_s5k2p6sx_4k_preview_3a.so
 vendor/lib/libchromatix_s5k2p6sx_4k_video_3a.so
 vendor/lib/libchromatix_s5k2p6sx_common.so
@@ -264,6 +306,8 @@ vendor/lib/libchromatix_s5k2x7sp_zsl_video_3a.so
 vendor/etc/camera/s5k2p6sx_chromatix.xml
 vendor/etc/camera/s5k2x7sp_chromatix.xml
 vendor/etc/camera/sdm450_camera_a6plte.xml
+vendor/etc/camera/sr556_chromatix.xml
+vendor/etc/camera/P05QF_sr556_module_info.xml
 
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_1_1.fw
