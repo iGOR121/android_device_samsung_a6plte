@@ -157,6 +157,9 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.0.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/vendor/gralloc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8953.so
+
 # DPM
 PRODUCT_PACKAGES += \
     libshim_dpmframework
