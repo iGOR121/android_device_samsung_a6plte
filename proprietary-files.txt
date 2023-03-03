@@ -58,6 +58,14 @@ vendor/bin/audioflacapp
 vendor/lib/soundfx/libaudioeffectoffload.so
 -vendor/lib/libaudioparsers.so
 vendor/lib/libdrc.so
+vendor/lib/lib_SamsungRec_06005.so
+vendor/lib/lib_SoundAlive_SRC384_ver320.so
+vendor/lib/lib_soundaliveresampler.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/librecordalive.so
+vendor/lib/libsamsungVoipResampler.so
+vendor/lib/libsecaudioinfo.so
+vendor/lib/hw/audio.primary.msm8953.so
 
 # Audio firmware
 vendor/firmware/Tfa9872.cnt
@@ -308,6 +316,8 @@ vendor/etc/camera/s5k2x7sp_chromatix.xml
 vendor/etc/camera/sdm450_camera_a6plte.xml
 vendor/etc/camera/sr556_chromatix.xml
 vendor/etc/camera/P05QF_sr556_module_info.xml
+vendor/etc/camera/T16QL_s5k2p6sx_module_info.xml
+vendor/etc/camera/A24QL_s5k2x7sp_module_info.xml
 
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_1_1.fw
