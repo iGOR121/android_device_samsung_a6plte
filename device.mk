@@ -66,21 +66,22 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
-    android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@5.0-util \
-    android.hardware.audio.effect@5.0 \
     android.hardware.audio.effect@5.0-impl \
     android.hardware.audio.service \
-    audio.a2dp.default \
+    android.hardware.bluetooth.audio@2.0-impl \
+    audio.bluetooth.default \
     audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
-    liba2dpoffload \
-    libaudio-resampler \
+    cplay \
+    libaudioroute \
+    libhfp \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libtinycompress \
+    libsndmonitor \
+    libspkrprot \
+    libvolumelistener \
     tinymix
 
 # Audio configuration files
@@ -123,7 +124,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.5-service \
     android.hardware.camera.provider@2.5 \
-    libdemangle.vendor
+    libdemangle.vendor \
+    Snap \
 
 PRODUCT_PACKAGES += \
     libstdc++.vendor \

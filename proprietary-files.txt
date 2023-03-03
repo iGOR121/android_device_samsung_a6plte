@@ -36,10 +36,10 @@ vendor/lib/libfastrpc_utf_stub.so
 vendor/lib/libsysmon_cdsp_skel.so
 
 # Audio
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
+-vendor/lib/libacdb-fts.so
+-vendor/lib/libacdbloader.so
+-vendor/lib/libacdbrtac.so
+-vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
 vendor/lib/libsurround_3mic_proc.so
@@ -49,7 +49,7 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libswdap.so
 vendor/lib/libaudioalsa.so
-vendor/lib/libaudio_log_utils.so
+-vendor/lib/libaudio_log_utils.so
 vendor/lib/libqtigef.so
 vendor/lib/libtinycompress_vendor.so
 etc/permissions/audiosphere.xml
@@ -65,7 +65,10 @@ vendor/lib/libaudio_log_utils.so
 vendor/lib/librecordalive.so
 vendor/lib/libsamsungVoipResampler.so
 vendor/lib/libsecaudioinfo.so
-vendor/lib/hw/audio.primary.msm8953.so
+-vendor/lib/hw/audio.primary.msm8953.so
+vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+vendor/etc/SoundBoosterParam.txt
+lib/lib_SoundBooster_ver900.so:vendor/lib/lib_SoundBooster_ver900.so
 
 # Audio firmware
 vendor/firmware/Tfa9872.cnt
