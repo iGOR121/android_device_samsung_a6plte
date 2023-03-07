@@ -69,6 +69,7 @@ vendor/lib/libsecaudioinfo.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/etc/SoundBoosterParam.txt
 lib/lib_SoundBooster_ver900.so:vendor/lib/lib_SoundBooster_ver900.so
+vendor/lib/libaudio_soundtrigger.so
 
 # Audio firmware
 vendor/firmware/Tfa9872.cnt
