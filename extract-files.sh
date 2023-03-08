@@ -55,6 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib/hw/audio.primary.msm8953.so)
+        "${PATCHELF}" --remove-needed "libaudio_soundtrigger.so" "${2}"
+        ;;
 	vendor/lib/libsec-ril.so)
         sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
