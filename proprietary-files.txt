@@ -202,6 +202,11 @@ vendor/lib/libubifocus.so
 vendor/lib/libmmcamera_trueportrait_lib.so
 lib/libjni_trueportrait.so
 vendor/lib/libmmcamera_stillmore_lib.so
+vendor/lib/libmmcamera_gt24c128_eeprom.so
+vendor/lib/libmmcamera_gt24c128_sub_eeprom.so
+vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so
+vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so
+vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so
 
 # libsecnative
 vendor/lib/libsecnativefeature.so
