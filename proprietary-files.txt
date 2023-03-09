@@ -493,6 +493,7 @@ vendor/lib/libqti-iopd-client.so
 # Keystore
 vendor/lib/hw/keystore.mdfpp.so
 vendor/lib/libkeymaster2_mdfpp.so
+vendor/lib/libkeymaster_helper_vendor.so
 
 # Media
 vendor/etc/seccomp_policy/mediacodec.policy
