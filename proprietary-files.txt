@@ -373,6 +373,9 @@ vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 lib/vendor.qti.hardware.qseecom@1.0.so:vendor/lib/vendor.qti.hardware.qseecom@1.0.so
+lib/vendor.trustonic.teeregistry@1.0.so:vendor/lib/vendor.trustonic.teeregistry@1.0.so
+vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service
+vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
 
 # Fingerprint
 vendor/lib/libbauthserver.so
