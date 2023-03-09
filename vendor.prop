@@ -78,6 +78,9 @@ ro.frp.pst=/dev/block/persistent
 # Gatekeeper
 ro.hardware.gatekeeper=mdfpp
 
+# Keymaster
+ro.hardware.keymaster=mdfpp
+
 # Media
 vendor.audio.hw.aac.encoder=true
 vendor.vidc.enc.disable.pq=true
