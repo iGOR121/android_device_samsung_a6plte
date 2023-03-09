@@ -374,6 +374,14 @@ vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 lib/vendor.qti.hardware.qseecom@1.0.so:vendor/lib/vendor.qti.hardware.qseecom@1.0.so
 
+# Fingerprint
+vendor/lib/libbauthserver.so
+vendor/lib/libbauthtzcommon.so
+vendor/lib/libegis_fp_normal_sensor_test.so
+vendor/lib/libgf_in_system_lib.so
+vendor/lib/libqfp_sensortest.so
+vendor/lib/libsynaFpSensorTestNwd.so
+
 # FM
 vendor/bin/init.qti.fm.sh
 vendor/bin/fm_qsoc_patches
@@ -526,6 +534,7 @@ vendor/lib/libwms.so
 vendor/bin/mcDriverDaemon
 vendor/lib/libMcClient.so
 vendor/lib/libMcRegistry.so
+vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
 
 # NFC
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
