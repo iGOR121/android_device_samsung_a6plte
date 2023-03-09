@@ -277,6 +277,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
 
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.samsung \
+    com.android.nfc_extras \
+    NfcNci \
+    Tag
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
