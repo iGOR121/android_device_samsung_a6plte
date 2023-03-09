@@ -533,7 +533,7 @@ vendor/lib/libwms.so
 # Mobicore
 vendor/bin/mcDriverDaemon
 vendor/lib/libMcClient.so
-vendor/lib/libMcRegistry.so
+lib/libMcRegistry.so:vendor/lib/libMcRegistry.so
 vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
 
 # NFC
