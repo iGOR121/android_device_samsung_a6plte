@@ -494,10 +494,22 @@ vendor/lib/libqti-iopd-client.so
 vendor/lib/hw/keystore.mdfpp.so
 vendor/lib/libkeymaster2_mdfpp.so
 
-# Media - from daisy - QKQ1.191002.002
+# Media
 vendor/etc/seccomp_policy/mediacodec.policy
-vendor/etc/somxreg.conf
+vendor/lib/libI420colorconvert.so
+vendor/lib/libmmosal_proprietary.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxAlacDec.so
+vendor/lib/libOmxAlacDecSw.so
+vendor/lib/libOmxAmrDec.so
+vendor/lib/libOmxAmrwbplusDec.so
+vendor/lib/libOmxApeDec.so
+vendor/lib/libOmxApeDecSw.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxWmaDec.so
 vendor/lib/libgpustats.so
+vendor/lib/libmm-color-convertor.so
 vendor/lib/libvqzip.so
 
 # Modem
