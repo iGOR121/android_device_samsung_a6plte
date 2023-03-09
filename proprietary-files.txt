@@ -522,6 +522,11 @@ vendor/lib/libOmxG711Dec.so
 # Modem
 vendor/lib/libwms.so
 
+# Mobicore
+vendor/bin/mcDriverDaemon
+vendor/lib/libMcClient.so
+vendor/lib/libMcRegistry.so
+
 # NFC
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
