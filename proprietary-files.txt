@@ -83,7 +83,7 @@ vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 
 # Bluetooth (ANT+)
-system/lib/com.qualcomm.qti.ant@1.0.so
+lib/com.qualcomm.qti.ant@1.0.so
 vendor/lib/com.qualcomm.qti.ant@1.0.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 -lib/libantradio.so
@@ -562,7 +562,7 @@ vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
 vendor/lib/vendor.samsung.hardware.miscpower@2.0.so
 
 # QMI
-system/lib/libqmi_cci_system.so
+lib/libqmi_cci_system.so
 vendor/bin/irsc_util
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
