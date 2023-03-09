@@ -523,6 +523,7 @@ vendor/lib/libwms.so
 
 # NFC
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
 
 # Perf
 vendor/etc/perf/perfboostsconfig.xml
