@@ -143,6 +143,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-12-01
 
+# SELinux
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+
 # Screen density
 TARGET_SCREEN_DENSITY := 410
 
