@@ -87,6 +87,8 @@ BOARD_MKBOOTIMG_ARGS := \
     --ramdisk_offset 0x02000000 \
     --second_offset 0x00F00000 \
     --tags_offset 0x01E00000
+BOARD_CUSTOM_BOOTIMG := true
+BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8953
