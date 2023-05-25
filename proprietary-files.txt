@@ -89,7 +89,7 @@ vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 -lib/libantradio.so
 
 # Gralloc
-vendor/lib/hw/gralloc.msm8953.so:vendor/lib/hw/sgalloc.msm8953.so
+vendor/lib/hw/gralloc.msm8953.so
 
 # Camera
 vendor/lib/libremosaiclib.so
