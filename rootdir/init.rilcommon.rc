@@ -10,12 +10,6 @@ import /init.rilmptcp.rc
 
 import /init.rilmcpsd.rc
 
-# AT Distributor for factory test
-service at_distributor /system/bin/at_distributor
-    class late_start
-    user root
-    group radio misc log system
-
 service DR-daemon /system/bin/ddexe
     class main
     user root

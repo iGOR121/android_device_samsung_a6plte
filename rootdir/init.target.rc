@@ -115,11 +115,6 @@ on init
    write /dev/stune/top-app/schedtune.colocate 1
    write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
 
-service qfp-daemon /system/vendor/bin/qfp-daemon
-   class late_start
-   user system
-   group system drmrpc
-
 # Allow usb charging to be disabled peristently
 on property:persist.usb.chgdisabled=1
     write /sys/class/power_supply/battery/charging_enabled 0
@@ -160,11 +155,6 @@ service thermal-engine /system/vendor/bin/thermal-engine
    socket thermal-recv-passive-client stream 0666 system system
    socket thermal-send-rule stream 0660 system system
    group root
-
-service audiod /system/vendor/bin/audiod
-   class late_start
-   user system
-   group system
 
 on boot
     start rmt_storage
@@ -299,12 +289,6 @@ service hbtp /system/vendor/bin/hbtp_daemon
     group system
     disabled
 
-service dts_configurator /system/vendor/bin/dts_configurator
-    class late_start
-    user system
-    group media audio
-    oneshot
-
 service dtseagleservice /system/vendor/bin/dts_eagle_service
     class late_start
     user system
@@ -341,11 +325,6 @@ service energy-awareness /system/vendor/bin/energy-awareness
     user root
     group system
     oneshot
-
-service mdtpd /system/vendor/bin/mdtpd
-    class late_start
-    user root
-    group system radio drmrpc
 
 on boot
     write /sys/devices/soc.0/78b8000.i2c/i2c-4/4-0020/input/input0/fw_name PR1702898-s3528t_00260005_00380008.img
