@@ -55,16 +55,21 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/bin/hw/rild)
+        "${PATCHELF}" --replace-needed "libril.so" "libril-samsung.so" "${2}"
+        ;;
         vendor/lib/hw/audio.primary.msm8953.so)
         "${PATCHELF}" --remove-needed "libaudio_soundtrigger.so" "${2}"
         ;;
 	vendor/lib/libsec-ril.so)
         sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
+        "${PATCHELF}" --replace-needed "libril.so" "libril-samsung.so" "${2}"
         ;;
 	vendor/lib/libsec-ril-dsds.so)
         sed -i "s/libhidltransport.so/libcutils-v29.so\x00\x00\x00/" "${2}"
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
+        "${PATCHELF}" --replace-needed "libril.so" "libril-samsung.so" "${2}"
         ;;
 	vendor/lib/hw/camera.msm8953.so)
 	    "${PATCHELF}" --replace-needed "libcamera_client.so" "libcamera_metadata_helper.so" "${2}"

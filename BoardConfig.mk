@@ -137,7 +137,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level

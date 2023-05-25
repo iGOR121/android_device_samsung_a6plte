@@ -611,7 +611,7 @@ vendor/etc/data/netmgr_config.xml
 vendor/etc/plmn_se13.bin
 vendor/etc/sec_config
 vendor/etc/sec_config_oem
--vendor/lib/libril.so
+vendor/lib/libril.so:vendor/lib/libril-samsung.so
 vendor/lib/libconfigdb.so
 vendor/lib/liblqe.so
 vendor/lib/libnetmgr.so
