@@ -65,7 +65,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@5.0-impl \
+    android.hardware.audio@5.0-impl.a6plte \
     android.hardware.audio.effect@5.0-impl \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio@2.0-impl \
@@ -158,9 +158,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libtinyxml \
     vendor.display.config@1.0.vendor
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/vendor/gralloc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8953.so
 
 # DPM
 PRODUCT_PACKAGES += \
