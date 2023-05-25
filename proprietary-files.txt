@@ -395,7 +395,7 @@ lib/fm_helium.so
 lib/libfm-hci.so
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.mdfpp.so
+vendor/lib/hw/gatekeeper.msm8953.so
 
 # GPS
 vendor/lib/libpdmapper.so
@@ -502,9 +502,7 @@ vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/libqti-iopd-client.so
 
 # Keystore
-vendor/lib/hw/keystore.mdfpp.so
-vendor/lib/libkeymaster2_mdfpp.so
-vendor/lib/libkeymaster_helper_vendor.so
+vendor/lib/hw/keystore.msm8953.so
 
 # Media
 vendor/etc/seccomp_policy/mediacodec.policy
